@@ -36,7 +36,8 @@
                 <td> <?php echo $no++ ?> </td>
                 <td> <?php echo $data ['nama'] ?> </td>
                 <td> <?php echo $data ['kata_kunci'] ?> </td>
-                <td> <a href="edit_pengguna.php?id=<?php echo $data ['id_pengguna'] ?>"> Edit</a> | <a href="hapus_pengguna.php?id=<?php echo $data ['id_pengguna'] ?>"> Hapus</a> </td>
+                <td> <a href="edit_pengguna.php?id=<?php echo $data ['id_pengguna'] ?>"> Edit</a> | 
+                <a href="hapus_pengguna.php?id=<?php echo $data ['id_pengguna'] ?>"> Hapus</a> </td>
             </tr>
             <?php } ?>
 

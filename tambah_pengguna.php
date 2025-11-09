@@ -47,6 +47,6 @@
             </table>
         </form>
         <br></br>
-        <a href="index.php"> Back</a>
+        <a href="index_pengguna.php"> Kembali ke Menu Utama</a>
     </body>
 </html>
