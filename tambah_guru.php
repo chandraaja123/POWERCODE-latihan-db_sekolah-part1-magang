@@ -98,7 +98,7 @@
 
             // Jika NIP ditemukan, tampilkan pesan error
             if (mysqli_num_rows($cek) > 0) {
-                echo "<br><b style='color:red;'>Gagal Menyimpan Data: NIP sudah terdaftar!</b>";
+                echo "<br><b style='color:red;'>Gagal Menyimpan Data: NIS sudah terdaftar!</b>";
             } else {
                 // Jika NIP belum ada, lanjut simpan data baru ke tabel tb_guru
                 $sql = "INSERT INTO tb_guru (nip, nama, alamat, tmpt_lahir, gender, agama, telp, pendidikan, status)

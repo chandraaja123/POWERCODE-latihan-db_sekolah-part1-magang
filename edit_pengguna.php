@@ -18,7 +18,10 @@
             $kata_kunci = $_POST["kata_kunci"];
 
             // Query Simpan Data
-            $sql    = "update tb_pengguna set nama='$nama', kata_kunci='$kata_kunci' where id_pengguna='$_GET[id]'";
+            $sql = "update tb_pengguna set 
+                        nama                ='$nama', 
+                        kata_kunci          ='$kata_kunci' 
+                    where id_pengguna       ='$_GET[id]'";
 
             // Eksklusi Perintah SQL dan Cek Koneksi ke Database
             $qrySimpan  = mysqli_query ($konek, $sql);
