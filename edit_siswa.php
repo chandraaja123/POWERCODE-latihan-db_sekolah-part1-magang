@@ -29,7 +29,6 @@
 
             // Query update data siswa berdasarkan NIS (dari URL)
             $sql = "UPDATE tb_siswa SET 
-                        nis         ='$nis',
                         nama        ='$nama',
                         id_kelas    ='$id_kelas',
                         alamat      ='$alamat',
@@ -38,7 +37,7 @@
                         gender      ='$gender',
                         agama       ='$agama',
                         kd_ortu     ='$kd_ortu',
-                        tgl_daftar  ='$tgl_daftar',
+                        tgl_daftar  ='$tgl_daftar'
                     WHERE nis       ='$_GET[nis]'";
 
             // Eksekusi query dan cek hasilnya

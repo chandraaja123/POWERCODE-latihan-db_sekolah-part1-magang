@@ -58,7 +58,7 @@
                 <tr>
                     <td>NIP</td>
                     <td>:</td>
-                    <td><input type="text" name="nip" readonly value="<?php echo $row['nip'] ?>"></td>
+                    <td><input type="text" name="nip" required value="<?php echo $row['nip'] ?>"></td>
                 </tr>
                 <tr>
                     <td>Nama</td>
