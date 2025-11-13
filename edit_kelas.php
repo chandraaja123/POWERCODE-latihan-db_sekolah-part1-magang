@@ -35,9 +35,10 @@
             } else {
                 echo "Data Gagal Disimpan. |" . mysqli_error($konek);
             }
+            
+            // Cek isi query sebelum dijalankan
+            echo $sql; // ini buat debugging, nanti tampil di browser
         }  
-// Cek isi query sebelum dijalankan
-echo $sql; // ini buat debugging, nanti tampil di browser
 
         // Ambil data lama berdasarkan ID Kelas dari URL untuk ditampilkan di form
         $sql   = "SELECT * FROM tb_kelas WHERE id_kelas='$_GET[id_kelas]'";
