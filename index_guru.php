@@ -18,7 +18,7 @@
                 <td>NIP</td>
                 <td>Nama</td>
                 <td>Alamat</td>
-                <td>Tempat Lahir</td>
+                <td>Tempat/Tanggal Lahir</td>
                 <td>Gender</td>
                 <td>Agama</td>
                 <td>Telepon</td>

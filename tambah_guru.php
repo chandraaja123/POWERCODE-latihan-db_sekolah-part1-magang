@@ -25,7 +25,7 @@
                     <td> <textarea name="alamat" rows="3" cols="25"></textarea> </td>
                 </tr>
                 <tr>
-                    <td>Tempat Lahir</td>
+                <td>Tempat/Tanggal Lahir</td>
                     <td> <input type="text" name="tmpt_lahir"> </td>
                 </tr>
                 <tr>

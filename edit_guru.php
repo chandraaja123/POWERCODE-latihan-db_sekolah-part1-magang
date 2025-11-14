@@ -71,7 +71,7 @@
                     <td><textarea name="alamat" rows="3" cols="25"><?php echo $row['alamat'] ?></textarea></td>
                 </tr>
                 <tr>
-                    <td>Tempat Lahir</td>
+                <td>Tempat/Tanggal Lahir</td>
                     <td>:</td>
                     <td><input type="text" name="tmpt_lahir" required value="<?php echo $row['tmpt_lahir'] ?>"></td>
                 </tr>
