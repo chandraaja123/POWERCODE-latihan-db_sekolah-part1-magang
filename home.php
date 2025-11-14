@@ -1,8 +1,22 @@
+<?php
+// Mulai session
+session_start();
+
+// Jika belum login, arahkan kembali ke login
+if (!isset($_SESSION['pengguna'])) {
+    header("Location: login.php");
+    exit;
+}
+?>
 <html>
     <head>
         <title>Halaman Utama - Database Sekolah</title>
     </head>
     <body>
+
+    <p>Halo, <?php echo $_SESSION['pengguna']; ?> 👋</p>
+    <a href="logout.php">Logout</a>
+
         <h2>Selamat Datang di Sekolah Milik Saya</h2>
         <hr>
         <p>Menu</p>
@@ -58,6 +72,6 @@
             </tr>
         </table>
 
-     
     </body>
 </html>
+get_extension_funcs
