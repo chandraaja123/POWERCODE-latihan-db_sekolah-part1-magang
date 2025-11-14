@@ -61,5 +61,7 @@
 
         </table>
 
+        <br>
+        <a href="home.php">Kembali ke Menu Utama</a>
     </body>
 </html>
