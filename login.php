@@ -2,6 +2,12 @@
 session_start();
 include "koneksi.php";
 
+// Jika sudah login, langsung ke home (opsional)
+if (isset($_SESSION['pengguna'])) {
+    header("Location: home.php");
+    exit;
+}
+
 if (isset($_POST['btnLogin'])) {
 
     $nama       = $_POST['nama'];
@@ -16,38 +22,38 @@ if (isset($_POST['btnLogin'])) {
         // Simpan session
         $_SESSION['pengguna'] = $data['nama'];
         echo "<script>alert('Login Berhasil!'); window.location='home.php';</script>";
+        exit;
     } else {
         echo "<script>alert('Login Gagal! Nama atau Kata Kunci salah.');</script>";
     }
 }
 ?>
-
 <html>
-    <head>
-        <title>Login Pengguna</title>
-    </head>
-    <body>
+<head>
+    <title>Login Pengguna</title>
+</head>
+<body>
 
-        <h2>🔐 Login Pengguna</h2>
-        <hr>
+    <h2>🔐 Login Pengguna</h2>
+    <hr>
 
-        <form method="post">
-            <table border="1" cellpadding="6">
-                <tr>
-                    <td>Nama Pengguna</td>
-                    <td><input type="text" name="nama" required></td>
-                </tr>
-                <tr>
-                    <td>Kata Kunci</td>
-                    <td><input type="password" name="kata_kunci" required></td>
-                </tr>
-                <tr>
-                    <td colspan="2" align="center">
-                        <input type="submit" name="btnLogin" value="Login">
-                    </td>
-                </tr>
-            </table>
-        </form>
+    <form method="post">
+        <table border="1" cellpadding="6">
+            <tr>
+                <td>Nama Pengguna</td>
+                <td><input type="text" name="nama" required></td>
+            </tr>
+            <tr>
+                <td>Kata Kunci</td>
+                <td><input type="password" name="kata_kunci" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="btnLogin" value="Login">
+                </td>
+            </tr>
+        </table>
+    </form>
 
-    </body>
+</body>
 </html>

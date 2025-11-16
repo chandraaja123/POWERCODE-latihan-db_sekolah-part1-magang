@@ -1,12 +1,12 @@
 <?php
-// Mulai session
-session_start();
+    // Mulai session
+    session_start();
 
-// Jika belum login, arahkan kembali ke login
-if (!isset($_SESSION['pengguna'])) {
-    header("Location: login.php");
-    exit;
-}
+    // Jika belum login, arahkan kembali ke login
+    if (!isset($_SESSION['pengguna'])) {
+        header("Location: login.php");
+        exit;
+    }
 ?>
 <html>
     <head>

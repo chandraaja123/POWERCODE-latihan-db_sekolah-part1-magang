@@ -1,5 +1,8 @@
 <?php
 session_start();
-session_destroy();
+session_unset(); // hapus semua isi variabel session
+session_destroy(); // hancurkan session
+
 header("Location: login.php");
+exit;
 ?>
