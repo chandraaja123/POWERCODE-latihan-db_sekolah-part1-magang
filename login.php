@@ -2,11 +2,7 @@
 session_start();
 include "koneksi.php";
 
-// Jika sudah login, langsung ke home (opsional)
-if (isset($_SESSION['pengguna'])) {
-    header("Location: home.php");
-    exit;
-}
+
 
 if (isset($_POST['btnLogin'])) {
 

@@ -74,4 +74,3 @@
 
     </body>
 </html>
-get_extension_funcs

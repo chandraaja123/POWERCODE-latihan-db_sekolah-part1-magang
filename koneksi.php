@@ -1,10 +1,4 @@
-<?php
-session_start();
-if (!isset($_SESSION['pengguna'])) {
-    header("Location: login.php");
-    exit;
-}
-?>
+
 
 
 <?php
