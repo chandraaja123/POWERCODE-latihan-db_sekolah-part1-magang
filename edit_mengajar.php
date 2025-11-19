@@ -82,6 +82,6 @@ echo $sql; // ini buat debugging, nanti tampil di browser
             </table>
         </form>
         <br>
-        <a href="index_mengajar.php">Kembali ke Menu Utama</a>
+        <a href="index_mengajar.php">Kembali</a>
     </body>
 </html>

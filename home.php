@@ -19,7 +19,7 @@
 
         <h2>Selamat Datang di Sekolah Milik Saya</h2>
         <hr>
-        <p>Menu</p>
+        <p>Data-Data Berharga Kami.</p>
 
         <table border="1" cellpadding="8" cellspacing="0">
             <tr>

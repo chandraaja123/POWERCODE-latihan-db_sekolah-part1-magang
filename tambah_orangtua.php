@@ -68,7 +68,7 @@ if (!isset($_SESSION['pengguna'])) {
 
         <br>
         <!-- Tombol kembali ke halaman utama -->
-        <a href="index_orangtua.php">Kembali ke Halaman Utama</a>
+        <a href="index_orangtua.php">Kembali</a>
 
         <?php
         //  Panggil file koneksi database

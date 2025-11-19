@@ -45,7 +45,7 @@ if (!isset($_SESSION['pengguna'])) {
 
         <br>
         <!-- Tombol kembali ke halaman utama -->
-        <a href="index_mengajar.php">Kembali ke Halaman Utama</a>
+        <a href="index_mengajar.php">Kembali</a>
 
         <?php
         //  Panggil file koneksi database

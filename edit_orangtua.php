@@ -120,6 +120,6 @@ if (!isset($_SESSION['pengguna'])) {
         </form>
 
         <br>
-        <a href="index_orangtua.php">Kembali ke Menu Utama</a>
+        <a href="index_orangtua.php">Kembali</a>
     </body>
 </html>

@@ -15,6 +15,11 @@ if (!isset($_SESSION['pengguna'])) {
     </head>
     <body>
 
+    <p>Halo, <?php echo $_SESSION['pengguna']; ?> 👋</p>
+
+        <h2>Selamat Datang di Sekolah Milik Saya</h2>
+        <hr>
+
         Menampilkan Data Kelas
 
         <br><br>

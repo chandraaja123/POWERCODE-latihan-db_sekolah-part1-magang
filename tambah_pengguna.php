@@ -55,6 +55,6 @@ if (!isset($_SESSION['pengguna'])) {
             </table>
         </form>
         <br></br>
-        <a href="index_pengguna.php"> Kembali ke Menu Utama</a>
+        <a href="index_pengguna.php"> Kembali</a>
     </body>
 </html>

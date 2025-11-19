@@ -129,7 +129,7 @@ if (!isset($_SESSION['pengguna'])) {
 
         <br>
         <!-- Tombol kembali ke halaman utama -->
-        <a href="index_siswa.php">Kembali ke Halaman Utama</a>
+        <a href="index_siswa.php">Kembali</a>
 
         
 
