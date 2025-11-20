@@ -29,7 +29,7 @@ if (!isset($_SESSION['pengguna'])) {
             <!-- Judul Tabel -->
             <tr>
                 <td>No.</td>
-                <td>ID Kelas</td>
+
                 <td>Kelas</td>
                 <td>Nip</td>
                 <td>Aksi</td>
@@ -49,7 +49,6 @@ if (!isset($_SESSION['pengguna'])) {
             ?>
             <tr>
                 <td> <?php echo $no++ ?> </td>
-                <td> <?php echo $data['id_kelas'] ?> </td>
                 <td> <?php echo $data['kelas'] ?> </td>
                 <td> <?php echo $data['nip'] ?> </td>
                 <td> 
